@@ -1,0 +1,42 @@
+#organic-blob {
+    margin: 0px;
+}
+
+#Circle1 {
+    -webkit-animation: from360to0 5s linear infinite;
+    animation: from360to0 5s linear infinite;
+    -webkit-transform-origin: 80px 85px;
+    transform-origin: 80px 85px;
+}
+
+#Circle2 {
+    -webkit-animation: from360to0 6s linear infinite;
+    animation: from360to0 6s linear infinite;
+    -webkit-transform-origin: 90px 85px;
+    transform-origin: 90px 85px;
+}
+
+#Circle3 {
+    -webkit-animation: from0to360 4s linear infinite;
+    animation: from0to360 4s linear infinite;
+    -webkit-transform-origin: 80px 75px;
+    transform-origin: 80px 75px;
+}
+
+#Circle4 {
+    -webkit-animation: from360to0 5s linear infinite;
+    animation: from360to0 5s linear infinite;
+    -webkit-transform-origin: 80px 85px;
+    transform-origin: 80px 85px;
+}
+
+@keyframes from360to0 {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

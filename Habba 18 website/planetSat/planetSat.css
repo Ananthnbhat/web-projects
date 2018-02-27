@@ -1,0 +1,211 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #292929;
+    -webkit-filter: url("#good");
+    filter: url("#good");
+}
+
+body .planet,
+body .satellite {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    background: #dfdfc3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 13;
+}
+
+body .planet {
+    -webkit-animation: planetAnimation 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation: planetAnimation 3s infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+body .satellite {
+    width: 6.8em;
+    height: 6.8em;
+    -webkit-animation: satelliteAnimation 3s infinite linear;
+    animation: satelliteAnimation 3s infinite linear;
+}
+
+@-webkit-keyframes planetAnimation {
+    0% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    10% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    18% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    32% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    40% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    61% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    68% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    82% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    90% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes planetAnimation {
+    0% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    10% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    18% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    32% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    40% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    61% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    68% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    82% {
+        -webkit-transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    90% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+        -webkit-transform: translate(-50%, -50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@-webkit-keyframes satelliteAnimation {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+    20% {
+        -webkit-transform: translate(200%, -50%) rotate(30deg);
+        transform: translate(200%, -50%) rotate(30deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    30% {
+        -webkit-transform: translate(200%, -50%) rotate(150deg);
+        transform: translate(200%, -50%) rotate(150deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    50% {
+        -webkit-transform: translate(0%, -50%) rotate(180deg);
+        transform: translate(0%, -50%) rotate(180deg);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+    70% {
+        -webkit-transform: translate(200%, -50%) rotate(210deg);
+        transform: translate(200%, -50%) rotate(210deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    80% {
+        -webkit-transform: translate(200%, -50%) rotate(330deg);
+        transform: translate(200%, -50%) rotate(330deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+}
+
+@keyframes satelliteAnimation {
+    0% {
+        -webkit-transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+    20% {
+        -webkit-transform: translate(200%, -50%) rotate(30deg);
+        transform: translate(200%, -50%) rotate(30deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    30% {
+        -webkit-transform: translate(200%, -50%) rotate(150deg);
+        transform: translate(200%, -50%) rotate(150deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    50% {
+        -webkit-transform: translate(0%, -50%) rotate(180deg);
+        transform: translate(0%, -50%) rotate(180deg);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+    70% {
+        -webkit-transform: translate(200%, -50%) rotate(210deg);
+        transform: translate(200%, -50%) rotate(210deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    80% {
+        -webkit-transform: translate(200%, -50%) rotate(330deg);
+        transform: translate(200%, -50%) rotate(330deg);
+        -webkit-transform-origin: -200% 50%;
+        transform-origin: -200% 50%;
+    }
+    100% {
+        -webkit-transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+}

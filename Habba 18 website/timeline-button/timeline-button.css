@@ -1,0 +1,252 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.timeline-buttoncss {
+    display: block;
+    height: 100%;
+    -webkit-animation: hue-rotate 10s linear infinite;
+    animation: hue-rotate 10s linear infinite;
+}
+
+.buttonn {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing: 1px;
+    /* color: white; */
+    padding: 20px 40px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+.buttonn:hover {
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+}
+
+.buttonn:active {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.buttonn--bubble {
+    position: relative;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    background: none;
+}
+
+.buttonn--bubble:hover {
+    background: none;
+}
+
+.buttonn--bubble:hover+.buttonn--bubble__effect-container .circle {
+    /* background: #000000; */
+    background: #31313b;
+}
+
+.buttonn--bubble:hover+.buttonn--bubble__effect-container .buttonn {
+    /* background: #000000; */
+    background: #31313b;
+}
+
+.buttonn--bubble:active+.buttonn--bubble__effect-container {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.buttonn--bubble__container {
+    position: relative;
+    display: inline-block;
+}
+
+.buttonn--bubble__container .effect-buttonn {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    top: 50%;
+    left: 25%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: rgb(255, 255, 255);
+    -webkit-transition: background 0.1s ease-out;
+    transition: background 0.1s ease-out;
+}
+
+.buttonn--bubble__effect-container {
+    position: absolute;
+    display: block;
+    width: 200%;
+    height: 400%;
+    top: -150%;
+    left: -50%;
+    -webkit-filter: url("#gooe");
+    filter: url("#gooe");
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    pointer-events: none;
+}
+
+.buttonn--bubble__effect-container .circle {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+    -webkit-transition: background 0.1s ease-out;
+    transition: background 0.1s ease-out;
+}
+
+.buttonn--bubble__effect-container .circle.top-left {
+    top: 40%;
+    left: 27%;
+}
+
+.buttonn--bubble__effect-container .circle.bottom-right {
+    bottom: 40%;
+    right: 27%;
+}
+
+.gooe {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
+
+@-webkit-keyframes hue-rotate {
+    from {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes hue-rotate {
+    from {
+        -webkit-filter: hue-rotate(0);
+        -moz-filter: hue-rotate(0);
+        -ms-filter: hue-rotate(0);
+        filter: hue-rotate(0);
+    }
+    to {
+        -webkit-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .buttonn {
+        -webkit-font-smoothing: antialiased;
+        background-color: linear-gradient(#fd746c, #ff9068);
+        border: none;
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        letter-spacing: 1px;
+        /* color: white; */
+        padding: 20px 40px;
+        text-transform: uppercase;
+        -webkit-transition: all 0.1s ease-out;
+        transition: all 0.1s ease-out;
+    }
+    .buttonn:hover {
+        text-decoration: none;
+        background-color: #ffffff;
+        color: linear-gradient(#fd746c, #ff9068);
+    }
+    .buttonn:active {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+    .buttonn--bubble {
+        position: relative;
+        z-index: 2;
+        color: rgb(255, 255, 255);
+        background: none;
+    }
+    .buttonn--bubble:hover {
+        background: none;
+    }
+    .buttonn--bubble:hover+.buttonn--bubble__effect-container .circle {
+        background: #ffffff;
+    }
+    .buttonn--bubble:hover+.buttonn--bubble__effect-container .buttonn {
+        background: #ffffff;
+    }
+    .buttonn--bubble:active+.buttonn--bubble__effect-container {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+    .buttonn--bubble__container {
+        position: relative;
+        display: inline-block;
+    }
+    .buttonn--bubble__container .effect-buttonn {
+        position: absolute;
+        width: 50%;
+        height: 25%;
+        top: 50%;
+        left: 25%;
+        z-index: 1;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background: linear-gradient(#fd746c, #ff9068);
+        -webkit-transition: background 0.1s ease-out;
+        transition: background 0.1s ease-out;
+    }
+    .buttonn--bubble__effect-container {
+        position: absolute;
+        display: block;
+        width: 200%;
+        height: 400%;
+        top: -150%;
+        left: -50%;
+        -webkit-filter: url("#gooe");
+        filter: url("#gooe");
+        -webkit-transition: all 0.1s ease-out;
+        transition: all 0.1s ease-out;
+        pointer-events: none;
+    }
+    .buttonn--bubble__effect-container .circle {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        background: linear-gradient(#fd746c, #ff9068);
+        -webkit-transition: background 0.1s ease-out;
+        transition: background 0.1s ease-out;
+    }
+}

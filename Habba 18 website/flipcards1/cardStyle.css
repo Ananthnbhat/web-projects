@@ -1,0 +1,118 @@
+html {
+    background: #222;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.card {
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+    -webkit-perspective: 1500;
+    -webkit-transform-style: preserve-3d;
+    position: relative;
+    width: 22%;
+    height: 13em;
+    display: inline-block;
+    margin: 1% 4%;
+    z-index: 15;
+}
+
+.card .front,
+.card .back {
+    overflow: hidden;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 2px 6px -2px;
+    background: #fff;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    background-color: #222;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .3s ease-in-out;
+}
+
+.card .front {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotateY(0);
+    z-index: 2;
+}
+
+.card .front .title {
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+.card .front .title h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.card .back {
+    background: #333;
+    transform: rotateY(-180deg);
+    padding: 20px;
+}
+
+.card .back p {
+    margin: 0 0 20px 0;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.card .back .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.card .btn {
+    padding: 10px;
+    display: block;
+    color: inherit;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card .btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(0);
+}
+
+@media (max-width:800px) {
+    .card {
+        width: 15%;
+        height: 15em;
+    }
+}

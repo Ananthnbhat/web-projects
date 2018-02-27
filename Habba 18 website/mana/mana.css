@@ -1,0 +1,29 @@
+  .mana {
+      border: 3px solid linear-gradient(#fd746c, #ff9068);
+      border-radius: 5px;
+      padding: 20px;
+      margin: auto;
+      width: 15em;
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      background: linear-gradient(#fd746c, #ff9068);
+      cursor: pointer;
+      font-weight: 700;
+      opacity: 0.9;
+  }
+  
+  .mana:hover {
+      border: 3px solid linear-gradient(#fd746c, #ff9068);
+      background: linear-gradient(#fd746c, #ff9068);
+      padding: 20px;
+      margin: auto;
+      width: 15em;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+      transition: .4s;
+      opacity: 1;
+  }

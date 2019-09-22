@@ -1,0 +1,1454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderContent should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HeaderContent />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <HashRouter>
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="nav-style"
+          >
+            <ul
+              className="nav nav-tabs header "
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className=" col-md-12"
+                >
+                  <li
+                    className="nav-name"
+                  >
+                    <NavLink
+                      exact={true}
+                      to="/"
+                    >
+                      <div
+                        className="text"
+                      >
+                        Add User
+                      </div>
+                    </NavLink>
+                  </li>
+                  <li
+                    className="nav-name"
+                  >
+                    <NavLink
+                      to="/Project"
+                    >
+                      Add Project
+                    </NavLink>
+                  </li>
+                  <li
+                    className="nav-name"
+                  >
+                    <NavLink
+                      to="/AddTask"
+                    >
+                      Add Task
+                    </NavLink>
+                  </li>
+                  <li
+                    className="nav-name"
+                  >
+                    <NavLink
+                      exact={true}
+                      to="/ViewTask"
+                    >
+                      View Task
+                    </NavLink>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div
+          className="content"
+        >
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/"
+          />
+          <Route
+            component={[Function]}
+            path="/Project"
+          />
+          <Route
+            component={[Function]}
+            path="/AddTask"
+          />
+          <Route
+            component={[Function]}
+            path="/ViewTask"
+          />
+        </div>
+      </HashRouter>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="container-fluid"
+          >
+            <div
+              className="nav-style"
+            >
+              <ul
+                className="nav nav-tabs header "
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className=" col-md-12"
+                  >
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/"
+                      >
+                        <div
+                          className="text"
+                        >
+                          Add User
+                        </div>
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/Project"
+                      >
+                        Add Project
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/AddTask"
+                      >
+                        Add Task
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/ViewTask"
+                      >
+                        View Task
+                      </NavLink>
+                    </li>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>,
+          <div
+            className="content"
+          >
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+            />
+            <Route
+              component={[Function]}
+              path="/Project"
+            />
+            <Route
+              component={[Function]}
+              path="/AddTask"
+            />
+            <Route
+              component={[Function]}
+              path="/ViewTask"
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="nav-style"
+            >
+              <ul
+                className="nav nav-tabs header "
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className=" col-md-12"
+                  >
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/"
+                      >
+                        <div
+                          className="text"
+                        >
+                          Add User
+                        </div>
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/Project"
+                      >
+                        Add Project
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/AddTask"
+                      >
+                        Add Task
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/ViewTask"
+                      >
+                        View Task
+                      </NavLink>
+                    </li>
+                  </div>
+                </div>
+              </ul>
+            </div>,
+            "className": "container-fluid",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul
+                className="nav nav-tabs header "
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className=" col-md-12"
+                  >
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/"
+                      >
+                        <div
+                          className="text"
+                        >
+                          Add User
+                        </div>
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/Project"
+                      >
+                        Add Project
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/AddTask"
+                      >
+                        Add Task
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/ViewTask"
+                      >
+                        View Task
+                      </NavLink>
+                    </li>
+                  </div>
+                </div>
+              </ul>,
+              "className": "nav-style",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="row"
+                >
+                  <div
+                    className=" col-md-12"
+                  >
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/"
+                      >
+                        <div
+                          className="text"
+                        >
+                          Add User
+                        </div>
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/Project"
+                      >
+                        Add Project
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/AddTask"
+                      >
+                        Add Task
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/ViewTask"
+                      >
+                        View Task
+                      </NavLink>
+                    </li>
+                  </div>
+                </div>,
+                "className": "nav nav-tabs header ",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className=" col-md-12"
+                  >
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/"
+                      >
+                        <div
+                          className="text"
+                        >
+                          Add User
+                        </div>
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/Project"
+                      >
+                        Add Project
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/AddTask"
+                      >
+                        Add Task
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/ViewTask"
+                      >
+                        View Task
+                      </NavLink>
+                    </li>
+                  </div>,
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/"
+                        >
+                          <div
+                            className="text"
+                          >
+                            Add User
+                          </div>
+                        </NavLink>
+                      </li>,
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/Project"
+                        >
+                          Add Project
+                        </NavLink>
+                      </li>,
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/AddTask"
+                        >
+                          Add Task
+                        </NavLink>
+                      </li>,
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/ViewTask"
+                        >
+                          View Task
+                        </NavLink>
+                      </li>,
+                    ],
+                    "className": " col-md-12",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NavLink
+                          exact={true}
+                          to="/"
+                        >
+                          <div
+                            className="text"
+                          >
+                            Add User
+                          </div>
+                        </NavLink>,
+                        "className": "nav-name",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": <div
+                            className="text"
+                          >
+                            Add User
+                          </div>,
+                          "exact": true,
+                          "to": "/",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Add User",
+                            "className": "text",
+                          },
+                          "ref": null,
+                          "rendered": "Add User",
+                          "type": "div",
+                        },
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NavLink
+                          to="/Project"
+                        >
+                          Add Project
+                        </NavLink>,
+                        "className": "nav-name",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "Add Project",
+                          "to": "/Project",
+                        },
+                        "ref": null,
+                        "rendered": "Add Project",
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NavLink
+                          to="/AddTask"
+                        >
+                          Add Task
+                        </NavLink>,
+                        "className": "nav-name",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "Add Task",
+                          "to": "/AddTask",
+                        },
+                        "ref": null,
+                        "rendered": "Add Task",
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NavLink
+                          exact={true}
+                          to="/ViewTask"
+                        >
+                          View Task
+                        </NavLink>,
+                        "className": "nav-name",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "View Task",
+                          "exact": true,
+                          "to": "/ViewTask",
+                        },
+                        "ref": null,
+                        "rendered": "View Task",
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              "type": "ul",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+              />,
+              <Route
+                component={[Function]}
+                path="/Project"
+              />,
+              <Route
+                component={[Function]}
+                path="/AddTask"
+              />,
+              <Route
+                component={[Function]}
+                path="/ViewTask"
+              />,
+            ],
+            "className": "content",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/Project",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/AddTask",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/ViewTask",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <HashRouter>
+          <div
+            className="container-fluid"
+          >
+            <div
+              className="nav-style"
+            >
+              <ul
+                className="nav nav-tabs header "
+              >
+                <div
+                  className="row"
+                >
+                  <div
+                    className=" col-md-12"
+                  >
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/"
+                      >
+                        <div
+                          className="text"
+                        >
+                          Add User
+                        </div>
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/Project"
+                      >
+                        Add Project
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        to="/AddTask"
+                      >
+                        Add Task
+                      </NavLink>
+                    </li>
+                    <li
+                      className="nav-name"
+                    >
+                      <NavLink
+                        exact={true}
+                        to="/ViewTask"
+                      >
+                        View Task
+                      </NavLink>
+                    </li>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div
+            className="content"
+          >
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/"
+            />
+            <Route
+              component={[Function]}
+              path="/Project"
+            />
+            <Route
+              component={[Function]}
+              path="/AddTask"
+            />
+            <Route
+              component={[Function]}
+              path="/ViewTask"
+            />
+          </div>
+        </HashRouter>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="container-fluid"
+            >
+              <div
+                className="nav-style"
+              >
+                <ul
+                  className="nav nav-tabs header "
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className=" col-md-12"
+                    >
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/"
+                        >
+                          <div
+                            className="text"
+                          >
+                            Add User
+                          </div>
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/Project"
+                        >
+                          Add Project
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/AddTask"
+                        >
+                          Add Task
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/ViewTask"
+                        >
+                          View Task
+                        </NavLink>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>,
+            <div
+              className="content"
+            >
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+              />
+              <Route
+                component={[Function]}
+                path="/Project"
+              />
+              <Route
+                component={[Function]}
+                path="/AddTask"
+              />
+              <Route
+                component={[Function]}
+                path="/ViewTask"
+              />
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="nav-style"
+              >
+                <ul
+                  className="nav nav-tabs header "
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className=" col-md-12"
+                    >
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/"
+                        >
+                          <div
+                            className="text"
+                          >
+                            Add User
+                          </div>
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/Project"
+                        >
+                          Add Project
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/AddTask"
+                        >
+                          Add Task
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/ViewTask"
+                        >
+                          View Task
+                        </NavLink>
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </div>,
+              "className": "container-fluid",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ul
+                  className="nav nav-tabs header "
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className=" col-md-12"
+                    >
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/"
+                        >
+                          <div
+                            className="text"
+                          >
+                            Add User
+                          </div>
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/Project"
+                        >
+                          Add Project
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/AddTask"
+                        >
+                          Add Task
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/ViewTask"
+                        >
+                          View Task
+                        </NavLink>
+                      </li>
+                    </div>
+                  </div>
+                </ul>,
+                "className": "nav-style",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="row"
+                  >
+                    <div
+                      className=" col-md-12"
+                    >
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/"
+                        >
+                          <div
+                            className="text"
+                          >
+                            Add User
+                          </div>
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/Project"
+                        >
+                          Add Project
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/AddTask"
+                        >
+                          Add Task
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/ViewTask"
+                        >
+                          View Task
+                        </NavLink>
+                      </li>
+                    </div>
+                  </div>,
+                  "className": "nav nav-tabs header ",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className=" col-md-12"
+                    >
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/"
+                        >
+                          <div
+                            className="text"
+                          >
+                            Add User
+                          </div>
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/Project"
+                        >
+                          Add Project
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          to="/AddTask"
+                        >
+                          Add Task
+                        </NavLink>
+                      </li>
+                      <li
+                        className="nav-name"
+                      >
+                        <NavLink
+                          exact={true}
+                          to="/ViewTask"
+                        >
+                          View Task
+                        </NavLink>
+                      </li>
+                    </div>,
+                    "className": "row",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <li
+                          className="nav-name"
+                        >
+                          <NavLink
+                            exact={true}
+                            to="/"
+                          >
+                            <div
+                              className="text"
+                            >
+                              Add User
+                            </div>
+                          </NavLink>
+                        </li>,
+                        <li
+                          className="nav-name"
+                        >
+                          <NavLink
+                            to="/Project"
+                          >
+                            Add Project
+                          </NavLink>
+                        </li>,
+                        <li
+                          className="nav-name"
+                        >
+                          <NavLink
+                            to="/AddTask"
+                          >
+                            Add Task
+                          </NavLink>
+                        </li>,
+                        <li
+                          className="nav-name"
+                        >
+                          <NavLink
+                            exact={true}
+                            to="/ViewTask"
+                          >
+                            View Task
+                          </NavLink>
+                        </li>,
+                      ],
+                      "className": " col-md-12",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            exact={true}
+                            to="/"
+                          >
+                            <div
+                              className="text"
+                            >
+                              Add User
+                            </div>
+                          </NavLink>,
+                          "className": "nav-name",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": <div
+                              className="text"
+                            >
+                              Add User
+                            </div>,
+                            "exact": true,
+                            "to": "/",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Add User",
+                              "className": "text",
+                            },
+                            "ref": null,
+                            "rendered": "Add User",
+                            "type": "div",
+                          },
+                          "type": [Function],
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            to="/Project"
+                          >
+                            Add Project
+                          </NavLink>,
+                          "className": "nav-name",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "Add Project",
+                            "to": "/Project",
+                          },
+                          "ref": null,
+                          "rendered": "Add Project",
+                          "type": [Function],
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            to="/AddTask"
+                          >
+                            Add Task
+                          </NavLink>,
+                          "className": "nav-name",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "Add Task",
+                            "to": "/AddTask",
+                          },
+                          "ref": null,
+                          "rendered": "Add Task",
+                          "type": [Function],
+                        },
+                        "type": "li",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <NavLink
+                            exact={true}
+                            to="/ViewTask"
+                          >
+                            View Task
+                          </NavLink>,
+                          "className": "nav-name",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": "View Task",
+                            "exact": true,
+                            "to": "/ViewTask",
+                          },
+                          "ref": null,
+                          "rendered": "View Task",
+                          "type": [Function],
+                        },
+                        "type": "li",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                "type": "ul",
+              },
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/"
+                />,
+                <Route
+                  component={[Function]}
+                  path="/Project"
+                />,
+                <Route
+                  component={[Function]}
+                  path="/AddTask"
+                />,
+                <Route
+                  component={[Function]}
+                  path="/ViewTask"
+                />,
+              ],
+              "className": "content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "path": "/Project",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "path": "/AddTask",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "path": "/ViewTask",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

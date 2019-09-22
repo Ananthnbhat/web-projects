@@ -1,0 +1,21 @@
+version: '3'
+
+services: 
+  docker-mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=projectmanager
+      - MYSQL_PASSWORD=root
+  spring-boot-jpa-docker-webapp:
+    image: project-manager-service
+    depends_on:
+      - docker-mysql
+    ports:
+      - 9091:8080
+    environment:
+      - DATABASE_HOST=docker-mysql
+      - DATABASE_USER=root
+      - DATABASE_PASSWORD=root
+      - DATABASE_NAME=projectmanager  
+      - DATABASE_PORT=3306

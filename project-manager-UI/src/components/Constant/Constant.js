@@ -1,0 +1,1 @@
+export const PROJECT_MANAGER_API='http://localhost:9091/projectmanager/'

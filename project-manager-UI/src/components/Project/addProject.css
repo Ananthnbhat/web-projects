@@ -1,0 +1,31 @@
+.project-line{
+  border-top: 1px solid grey;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding:30px;
+}
+
+.table-style{
+  padding-bottom: 10px;
+  background-color: gainsboro;
+  padding:0px 15px 0px 15px
+}
+
+.project-button{
+  padding:10px 20px;
+}
+.col-md-1>.vl {
+  border-left: .4px solid black;
+  height: 100%;
+  position: relative;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+.buttonAlignment{
+  margin:0 auto;
+}
+

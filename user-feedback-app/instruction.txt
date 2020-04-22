@@ -1,3 +1,0 @@
-inside the server folder, the git is heroku git, i.e whatever we commit and push, the code will be pushed to heroku git repo and deployed in 
-heroku automaticalli
-outside server folder, i.e inside user-feedback app whenever I commit or push it will be pushed to my repo in Github

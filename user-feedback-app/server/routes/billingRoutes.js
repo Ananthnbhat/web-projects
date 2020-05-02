@@ -2,7 +2,7 @@ const keys = require("../config/keys")
 const stripe = require('stripe')(keys.stripeSecretKey);
 const requireLogin = require('../middlewares/requireLogin');
 
-module.exports = (app) => {
+const billingRoutes = (app) => {
     app.post('/api/stripe', requireLogin, async (req, res) => { //app.post or app.get can have any number of parameters, but the last one should be a function
         //which handles/sends some response back
         // if(!req.user){
@@ -23,3 +23,5 @@ module.exports = (app) => {
         }
     });
 };
+
+module.exports = billingRoutes;

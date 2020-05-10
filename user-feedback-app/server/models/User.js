@@ -5,4 +5,4 @@ const userSchema = new Schema({
     googleId: String,
     credits: { type: Number, default: 0 }
 });
-mongoose.model('users', userSchema);    //save a model in mongo called users
+mongoose.model('users', userSchema);    //save a model in mongo called users (creates a new collection in the DB)

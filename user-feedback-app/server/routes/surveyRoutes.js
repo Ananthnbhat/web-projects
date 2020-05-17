@@ -12,8 +12,13 @@ function surveyRoutes(app) {
         res.send("Thank you for voting!")
     });
 
+    app.post('/api/surveys/webhooks', (req, res)=>{
+        console.log(req.body);
+        res.send({});
+    })
+
     app.post('/api/surveys', requireLogin, requireCredits, async (req, res) => { //make sure user is logged in and he has enough credits to create surveys
-        const { title, subject, body, recipients } = req.body();
+        const { title, subject, body, recipients } = req.body;
         survey = new Survey({
             title,
             subject,

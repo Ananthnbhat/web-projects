@@ -10,7 +10,7 @@ const Landing = () => {
             <p>Any mail id is fine</p>
             <p>Card number: 4242 4242 4242 4242</p>
             <p>Any 3 digit CVC</p>
-            <p>Any future data</p>
+            <p>Any future date</p>
         </div>
     );
 }

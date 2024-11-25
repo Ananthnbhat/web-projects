@@ -28,7 +28,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
-    "vite": "^4.1.0",
+    "vite": "^4.1.5",
     "@types/three": "^0.139.0",
     "@types/webgi": "https://storage.googleapis.com/dist.pixotronics.com/webgi/runtime/bundle-types-0.5.5.tgz",
     "cross-env": "^7.0.3",

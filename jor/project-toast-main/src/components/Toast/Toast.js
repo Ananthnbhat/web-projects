@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Children } from 'react';
 import {
   AlertOctagon,
   AlertTriangle,
@@ -18,7 +18,7 @@ const ICONS_BY_VARIANT = {
   error: AlertOctagon,
 };
 
-function Toast({ content, variant = 'notice', dismiss }) {
+function Toast({ variant = 'notice', dismiss, children }) {
 
   const Icon = getIcon(variant)
 
@@ -28,7 +28,7 @@ function Toast({ content, variant = 'notice', dismiss }) {
         <Icon size={24} />
       </div>
       <p className={styles.content}>
-        {content}
+        {children}
       </p>
       <button className={styles.closeButton} onClick={dismiss}>
         <X size={24} />

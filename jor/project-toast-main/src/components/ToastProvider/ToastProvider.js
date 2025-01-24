@@ -6,11 +6,22 @@ function ToastProvider({ children }) {
 
   const [toasts, setToasts] = React.useState([])
 
+  React.useEffect(() => {
+    function dismissAllToasts(e) {
+      if (e.code === "Escape")
+        setToasts([])
+    }
+    window.addEventListener("keydown", dismissAllToasts);
+    return () => {
+      window.removeEventListener("keydown", dismissAllToasts)
+    }
+  }, [])
+
   const addToast = ({ message, toastVariant }) => {
     setToasts([
       ...toasts,
       {
-        id: crypto.randomUUID,
+        id: crypto.randomUUID(),
         message,
         toastVariant,
       }

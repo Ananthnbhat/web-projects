@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import {
   AlertOctagon,
   AlertTriangle,
@@ -6,8 +6,6 @@ import {
   Info,
   X,
 } from 'react-feather';
-
-import VisuallyHidden from '../VisuallyHidden';
 
 import styles from './Toast.module.css';
 
@@ -30,9 +28,12 @@ function Toast({ variant = 'notice', dismiss, children }) {
       <p className={styles.content}>
         {children}
       </p>
-      <button className={styles.closeButton} onClick={dismiss}>
+      <button
+        className={styles.closeButton}
+        onClick={dismiss}
+        aria-label="Dismiss message"
+        aria-live="off">
         <X size={24} />
-        <VisuallyHidden>Dismiss message</VisuallyHidden>
       </button>
     </div>
   );

@@ -18,7 +18,7 @@ const ICONS_BY_VARIANT = {
 
 function Toast({ variant = 'notice', dismiss, children }) {
 
-  const Icon = getIcon(variant)
+  const Icon = ICONS_BY_VARIANT[variant]
 
   return (
     <div className={`${styles.toast} ${styles[variant]}`}>
@@ -37,18 +37,6 @@ function Toast({ variant = 'notice', dismiss, children }) {
       </button>
     </div>
   );
-}
-
-function getIcon(variant) {
-  switch (variant) {
-    case 'notice': return ICONS_BY_VARIANT.notice
-    case 'warning': return ICONS_BY_VARIANT.warning
-    case 'success': return ICONS_BY_VARIANT.success
-    case 'error': return ICONS_BY_VARIANT.error
-
-    default:
-      break;
-  }
 }
 
 export default Toast;
